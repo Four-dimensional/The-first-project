@@ -1,0 +1,59 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div{
+    display: flex;
+}
+
+middle{
+    flex: 1;
+    background-color: #f2fab2;
+}
+
+left,right{
+    width: 20%;
+    background-color: #aff9f0;
+}
+
+header{
+    height: 70px;
+    background-color: #7ed0ec;
+}
+
+footer{
+    height: 400px;
+    background-color: #7ed0ec;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    flex: 1;
+}
+
+h1{
+    background-color: #919c2731;
+    margin: 0px;
+}
+
+#line{
+    background-color: #ddd05c;
+    margin: 0px;
+    height: 8px;
+}
+
+@media screen and (max-width:900px){
+body{
+    width: 100%;
+}
+}
+
+list{
+    font-size: 20px;
+}
