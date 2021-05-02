@@ -12,8 +12,13 @@ middle{
     background-color: #f2fab2;
 }
 
-left,right{
+left{
     width: 20%;
+    background-color: #aff9f0;
+}
+
+aside{
+    width: 25%;
     background-color: #aff9f0;
 }
 
